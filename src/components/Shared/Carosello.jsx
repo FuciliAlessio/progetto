@@ -6,6 +6,7 @@ import { autoPlay } from 'react-swipeable-views-utils';
 import testlago from "../../images/testlago.jpeg"
 import montagna from "../../images/montagna.jpeg"
 import paesaggio from "../../images/paesaggio.jpeg"
+import sfondodivano from "../../images/sfondodivano.jpeg"
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -16,7 +17,7 @@ const images = [
   },
   {
     imgPath:
-    montagna
+    sfondodivano
   },
   {
     imgPath:
@@ -24,7 +25,7 @@ const images = [
   },
   {
     imgPath:
-    montagna,
+    sfondodivano,
   },
 ];
 
@@ -37,7 +38,7 @@ function SwipeableTextMobileStepper() {
   };
 
   return (
-    <Box sx={{ minWidth: "100%", flexGrow: 1, maxHeight: "90vh" }}>
+    <Box sx={{ minWidth: "100%", flexGrow: 1, maxHeight: "90vh" , margin:'-8px'}}>
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
