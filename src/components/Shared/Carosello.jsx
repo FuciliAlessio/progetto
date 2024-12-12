@@ -3,25 +3,26 @@ import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
-import testlago from "../../images/testlago.jpeg"
-import montagna from "../../images/montagna.jpeg"
-import paesaggio from "../../images/paesaggio.jpeg"
+import paesaggio from "../../images/paesaggio.jpeg" 
 import sfondodivano from "../../images/sfondodivano.jpeg"
+import cassa from '../../images/cassa.jpg'
+import sala from '../../images/sala.jpg'
+import entrata from '../../images/entrata.jpg'
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
     imgPath:
-    paesaggio
+    cassa
   },
   {
     imgPath:
-    sfondodivano
+    entrata
   },
   {
     imgPath:
-    paesaggio,
+    sala,
   },
   {
     imgPath:

@@ -52,6 +52,8 @@ export default function BasicGrid() {
           <Item style={{ transform: isVisible ? 'translateX(0)' : 'translateX(-100%)' }}>
             <ActionAreaCard
               image={paesaggio}
+              title={'paesaggio'}
+              text={'il paesaggio delle fiabe'}
             />
           </Item >
         </Grid>
